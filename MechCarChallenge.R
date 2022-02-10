@@ -29,6 +29,6 @@ lot_summary <- susp_coil_df %>% group_by(Manufacturing_Lot) %>% summarize(Mean =
 t.test(susp_coil_df$PSI, mu=1500)
 
 # Write 3 RScripts using t.test() and its subset() argument to determine if the PSI for each mfg lot is statistically different from the pop. mean of 1500 PSI
-t.test(formula = PSI ~ 1, data = susp_coil_df, subset = Manufacturing_Lot == "Lot1")
-t.test(formula = PSI ~ 1, data = susp_coil_df, subset = Manufacturing_Lot == "Lot2")
-t.test(formula = PSI ~ 1, data = susp_coil_df, subset = Manufacturing_Lot == "Lot3")
+t.test(formula = PSI ~ 1, data = susp_coil_df, subset = Manufacturing_Lot == "Lot1", mu=1500)
+t.test(formula = PSI ~ 1, data = susp_coil_df, subset = Manufacturing_Lot == "Lot2", mu=1500)
+t.test(formula = PSI ~ 1, data = susp_coil_df, subset = Manufacturing_Lot == "Lot3", mu=1500)
