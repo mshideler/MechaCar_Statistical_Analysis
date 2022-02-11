@@ -32,3 +32,24 @@ Here, we have the t-test results for determining if the PSI for suspension coils
 
 ## Study Design: MechaCar vs. Competition
 
+Cost
+Safety Rating
+Technology
+Fuel Efficiency
+Comfort Rating
+Number of Cylinders
+
+null H:  the MechaCar's performance meets or exceeds the performance of other manufacturer's vehicles
+alt H:  the MechaCar's performance is lower than the performance of other manufacturer's vehicles
+
+
+In order to compare the MechaCar's performance against the performance of other manufacturer's vehicles, there are many factors to consider.  For this particular study, we'll use the following metrics for all vehicles:
+
+- Cost
+- Safety Rating
+- Technology
+- Fuel Efficiency
+- Comfort Rating
+- Number of Cylinders
+
+The ratings for each of these metrics will need to be obtained for each vehicle likely through customer surveys.  The higher the rating, the more favorable the metric is.  We'll determine the mean of each metric/performance rating for both MechaCars and non-MechaCars and then test for statistical differences between each.  Therefore, we'll use the Two-Sample T-Test to test for these differences.  For example, we'll determine the mean rating for cost for non-MechaCars as well as MechaCars.  The null hypothesis here is there is no statistical difference between the mean cost for MechaCars and the mean cost for non-MechaCars.  This test needs to be repeated for each metric.  If there are no statistical differences between any of the metrics, there's no statistical difference between the MechaCar's performance and non-MechaCars' performance.
