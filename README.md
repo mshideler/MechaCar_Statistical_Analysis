@@ -8,7 +8,11 @@ Above is the summary output for the linear regression performed using the MechaC
 
 ## Summary Statistics on Suspension Coils
 
+### Summary Statistics across All Lots
+
 ![total_summary](https://github.com/mshideler/MechaCar_Statistical_Analysis/blob/main/Resources/total_summary.PNG)
+
+### Summary Statistics per Lot
 
 ![lot_summary](https://github.com/mshideler/MechaCar_Statistical_Analysis/blob/main/Resources/lot_summary.PNG)
 
@@ -16,7 +20,11 @@ Above are summary statistics based on the weights of suspension coils produced a
 
 ## T-Tests on Suspension Coils
 
+### T-Test Results across All Lots
+
 ![t-test all lots](https://github.com/mshideler/MechaCar_Statistical_Analysis/blob/main/Resources/all_lots_t_test.PNG)
+
+### T-Test Results per Lot
 
 ![t-test per lot](https://github.com/mshideler/MechaCar_Statistical_Analysis/blob/main/Resources/lots_1_2_3_t_test.PNG)
 
